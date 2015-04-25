@@ -1,2 +1,0 @@
-# `webdriver`
-`webdriver` is a bot clone of the famous [Webdriver Torso](https://www.youtube.com/channel/UCsLiV4WJfkTEHH0b9PmRklw) videos found on YouTube. They consist of about 11 seconds of blue and red rectangles with text in the corner. This program/website is a "copy" of the bot that creates the rectangles and shit. I don't even know why I did this other than to screw with the drawing tools in JavaScript and .NET. Basically, it looks a whole fucking lot like the Webdriver Torso videos.
