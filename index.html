@@ -10,14 +10,19 @@
 
         <!-- Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         
         <!-- Custom Stuff -->
         <link rel="stylesheet" href="res/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
     </head>
     <body>
+        <div class="title">
+          <h1><code>webdriver</code></h1>
+          <p><code>webdriver</code> is a bot clone of the famous <a href="https://www.youtube.com/channel/UCsLiV4WJfkTEHH0b9PmRklw">Webdriver Torso</a> videos found on YouTube. They consist of about 11 seconds of blue and red rectangles with text in the corner. This program/website is a &quot;copy&quot; of the bot that creates the rectangles and shit. I don&#39;t even know why I did this other than to screw with the drawing tools in JavaScript. Basically, it looks a whole fucking lot like the Webdriver Torso videos.</p>
+        </div>
         <div class="container">
             <canvas id="canvas" width="960" height="480"></canvas>
             <footer>
@@ -26,7 +31,7 @@
             </footer>
         </div>
         <script src="res/js/script.js"></script>
-        <span id="numstore" class="hide">0</span>
+        <span id="numstore" class="hide">-1</span>
         <script>
         loopGenerate();
         </script>

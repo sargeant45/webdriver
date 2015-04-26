@@ -4,7 +4,8 @@
 }
 
 .container {
-  position: fixed; /*or absolute*/
+  position: absolute;
+  -webkit-perspective: 1000;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%,-50%);
@@ -16,4 +17,10 @@
 
 .hide {
   visibility: hidden;
+}
+
+.title {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 80%;
 }
